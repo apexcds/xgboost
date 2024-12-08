@@ -12,7 +12,7 @@ Developed with a focus on efficiency, XGBoost has become a go-to solution for da
 
 ---
 
-## 🔑 Key Contributions of XGBoost
+## Key Contributions of XGBoost
 
 In the influential paper by Tianqi Chen and Carlos Guestrin, [XGBoost: A Scalable Tree Boosting System](https://github.com/apexcds/xgboost/blob/main/XGBoost.pdf), the authors outlined the following major contributions:
 
