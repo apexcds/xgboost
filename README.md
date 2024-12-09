@@ -58,3 +58,5 @@ XGBoost has been successfully applied in numerous domains, including but not lim
 4. **Competitions:**
    - Dominates machine learning competitions such as Kaggle and DrivenData.
 
+In this project, we implement XGBoost to predict applicant default risk, using the dataset [credit_risk_dataset.csv](https://github.com/apexcds/xgboost/blob/main/credit_risk_dataset.csv). The notebook [XGBoost](https://github.com/apexcds/xgboost/blob/main/XGBoost.ipynb) demonstrates the implementation.
+
