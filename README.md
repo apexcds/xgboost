@@ -58,5 +58,12 @@ XGBoost has been successfully applied in numerous domains, including but not lim
 4. **Competitions:**
    - Dominates machine learning competitions such as Kaggle and DrivenData.
 
-In this project, we implement XGBoost to predict applicant default risk, using the dataset [credit_risk_dataset.csv](https://github.com/apexcds/xgboost/blob/main/credit_risk_dataset.csv). The notebook [XGBoost](https://github.com/apexcds/xgboost/blob/main/XGBoost.ipynb) demonstrates the implementation.
+In this project, we implement XGBoost to predict applicant default risk, using the dataset [credit_risk_dataset.csv](https://github.com/ShahdFekrry/Code-Alpha_Credit-Scoring-Model/blob/main/credit_risk_dataset.csv). The notebook, available [here](https://github.com/apexcds/xgboost/blob/main/XGBoost.ipynb), explores the dataset through visualizations and statistical analysis to understand feature relationships and distributions. 
+
+To address challenges such as imbalanced data and categorical variables, the notebook leverages XGBoost's capabilities, including `scale_pos_weight` for imbalance handling and `enable_categorical=True` for native categorical support. After fitting the model, XGBoost delivers both accurate predictions and insightful feature importance metrics, which are crucial for guiding future loan approval decisions. Below is the feature importance graph generated in the notebook:
+
+<p align="center">
+  <img src="https://github.com/apexcds/xgboost/blob/main/feature_importance.png" alt="Feature Importance Graph" width="600">
+</p>
+
 
